@@ -1,0 +1,13 @@
+.git
+.gitignore
+**/node_modules
+frontend/dist
+backend/data
+backend/*.db
+backend/*.db-*
+backend/*.exe
+.env
+**/.env
+docker-compose.yml
+README.md
+API.md

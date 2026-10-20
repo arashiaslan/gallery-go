@@ -1,0 +1,44 @@
+# Binaries
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go build cache
+.cache/
+go.work
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables (NEVER commit these)
+.env
+.env.local
+.env.production
+.env*.local
+
+# Data (local database and uploads)
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Node
+node_modules/
+dist/
+.pnpm-debug.log*
+
+# Temp
+tmp/
+temp/
+
+# OS
+Thumbs.db
+.AppleDouble
+.TemporaryItems
